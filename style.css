@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+main{
+
+    margin: 5%;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+    margin: 0;
+    background-image:  url(imagenes/fondoLogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 60vh ;
+    height: 55vh;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    flex-wrap: wrap;
+}
+header img {
+    position: relative;
+    margin: 2.3em 0 0 0;
+    width: 20%;
+    height: min-content;
+}
+
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    background-color: black ;
+    opacity: 65%;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul a {
+    margin: auto;
+color: white;
+text-decoration: none;
+}
+
+.s1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.s1 article{
+    padding: 5px;
+    width:350px;
+    margin: 0 2% 0 2%;
+}
+
+h3{
+    color: #707618;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    min-height: 10%;
+}
+
+.p1{
+    width: 100%;
+    text-wrap: wrap;
+    display: flex;
+    text-align: justify;
+}
+.p1 figure{
+    position: relative;
+    margin: 0 5px;
+    width:80%;
+}
+ p{
+    text-align: justify;
+    margin-left: 8px;
+}
+.imgp{
+    border-radius: 10px;
+   height: 100px;
+   width: 100%;
+   position: relative;
+}
+
+.huella{
+    height: 15px;
+    width: 15px;
+}
+.vermas{
+    margin-bottom: 10px;
+}
+.formulito{
+    
+    padding: 2%;
+    margin-top: 1em;
+    height:   300px;
+    width: 20%;
+    width:max-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #e8e9f4;
+    box-shadow:  5px 5px 4px #707618;
+    
+}
+.formulito ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    height: min-content;
+    text-align: justify;
+    
+}
+.formulito ul li{
+    width: 100%;
+    height: 25px;
+}
+formulito ul li label{
+    width: 25%;
+    
+}
+.formulito ul li label input{
+width: 70%;
+    margin-left: 5%;
+    margin-right: 0;
+
+}
+
+
+.titcit{
+    margin:0 0 15px 0 ;
+    text-align: center;
+}
+
+
+.submission{
+   text-align: center;
+   box-shadow: 1px 1px 0 0 black;
+   border-radius: 5px;
+   margin-left: 25%
+}
+
+
+footer{
+    background-image: url(imagenes/Logo.png);
+    background-size: 150px 50px;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+   display: grid;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 1.5px 0 1.5px #d7e0e8 inset;
+    
+}
+footer p{
+    width: 75%;
+    margin: 5px 33% 0 33%;
+    
+}
+footer figure{
+  
+ width: 25%;
+
+}
+footer figure img{
+    height: min-content;
+    width: 100px;
+}
