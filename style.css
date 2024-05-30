@@ -62,7 +62,9 @@ h3{
     text-align: center;
     min-height: 10%;
 }
-
+h3 img{
+    height: 15px;
+}
 .p1{
     width: 100%;
     text-wrap: wrap;
@@ -190,6 +192,84 @@ aside{
     margin: 0;
     text-align: center;
 
+}
+
+
+.hproductos{
+    background-image: url(imagenes/fondoProductos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.productoss1 p{
+
+    min-width: 400px;
+
+}
+
+.artiproducto1 p img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px  #707618;
+}
+
+.artiproducto2 p img{
+    margin-left: 10px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px  #707618;
+}
+.productoss2{
+    margin: 10%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.producticos{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    width: 350px;
+    height: 600px;
+    margin-top: 2%;
+
+}
+h2{
+    width: 100%;
+    text-align: center;
+}
+h5{
+   
+    margin:5%;
+
+}
+.producticos p{
+    margin: 20px;
+    text-align: center;
+
+}
+.producticos img{
+
+    width: 100%;
+    height: 69%;
+}
+.precio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+.agregar{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    color: red;
+    box-shadow: 1px 1px 1px blue;
 }
 footer{
     background-image: url(imagenes/Logo.png);
